@@ -6,8 +6,15 @@
     <description>Recent content in Posts on Zxus</description>
     <generator>Hugo -- 0.133.1</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 31 Aug 2024 19:30:47 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 31 Aug 2024 22:26:49 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git Submodules</title>
+      <link>http://localhost:1313/posts/git-submodules/</link>
+      <pubDate>Sat, 31 Aug 2024 22:26:49 +0530</pubDate>
+      <guid>http://localhost:1313/posts/git-submodules/</guid>
+      <description>Embracing Git Submodules: A Journey to a Seamless Dotfiles Setup I had been using stow since it was simple, but I was tired of making countless number of directories. I believed there had to be a better way. and oh boy, yadm it was. In my quest towards a perfect dotfiles setup in my Arch Linux and Neovim PDE (btw), Git submodules turned out to be hero I needed but not deserved.</description>
+    </item>
     <item>
       <title>My First Post</title>
       <link>http://localhost:1313/posts/my-first-post/</link>
