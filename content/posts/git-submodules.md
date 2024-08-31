@@ -5,7 +5,7 @@ date = 2024-08-31T22:26:49+05:30
 
 ---
 
-# Embracing Git Submodules: A Journey to a Seamless Dotfiles Setup
+## Embracing Git Submodules: A Journey to a Seamless Dotfiles Setup
 
 I had been using stow since it was simple, but I was tired of making countless number of directories. I believed there had to be a better way. and oh boy, yadm it was.
 In my quest towards a perfect dotfiles setup in my Arch Linux and Neovim PDE (btw), Git submodules turned out to be hero I needed but not deserved. Here's the anecdote to what happened:
