@@ -6,8 +6,16 @@
     <description>Recent content on Zxus</description>
     <generator>Hugo -- 0.133.1</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 31 Aug 2024 22:26:49 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 04 Nov 2024 17:32:51 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Huffman Coding</title>
+      <link>http://localhost:1313/posts/huffman-coding/</link>
+      <pubDate>Mon, 04 Nov 2024 17:32:51 +0530</pubDate>
+      <guid>http://localhost:1313/posts/huffman-coding/</guid>
+      <description>Huffman Coding Huffman Coding is a popular algorithm used for data compression. It was developed by David A. Huffman in 1952 as part of his research on finding the most efficient binary code. Huffman Coding is widely used because of its simplicity and effectiveness in reducing data size without losing information.
+Table of Contents Introduction How Huffman Coding Works Example of Huffman Coding Decoding with Huffman Code Advantages of Huffman Coding Applications of Huffman Coding Limitations of Huffman Coding Introduction Huffman Coding is a lossless compression algorithm, meaning no data is lost during the compression process.</description>
+    </item>
     <item>
       <title>Git Submodules</title>
       <link>http://localhost:1313/posts/git-submodules/</link>
