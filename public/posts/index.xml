@@ -21,11 +21,14 @@
       <description>&lt;hr&gt;
 &lt;h1 id=&#34;finance-for-noobs&#34;&gt;Finance for noobs&lt;/h1&gt;
 &lt;p&gt;I come from tech background with zero knowledge of finance. This is me documenting my journey so that maybe if you want to learn about it, it is easier for you.&lt;/p&gt;
+&lt;blockquote&gt;
 &lt;h2 id=&#34;disclaimer&#34;&gt;Disclaimer&lt;/h2&gt;
-&lt;p&gt;This is relevant to India and sometimes US markets, the goal is to understand stuff.
-The content here is purely for educational purposes. This is not financial advice in any form.&lt;/p&gt;
-&lt;h2 id=&#34;mutual-funds&#34;&gt;Mutual Funds&lt;/h2&gt;
-&lt;p&gt;I growed up watching mutual funds advertisements many times, never really understood what they meant.&lt;/p&gt;</description>
+&lt;p&gt;This content is primarily relevant to India and sometimes US markets.
+The content here is purely for educational purposes.
+&lt;strong&gt;This is not financial advice.&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h2 id=&#34;stocks&#34;&gt;Stocks&lt;/h2&gt;
+&lt;p&gt;Stock is basically ownership of a company.&lt;/p&gt;
+&lt;p&gt;Usual ways that people make profit from a stock is:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Huffman Coding</title>
