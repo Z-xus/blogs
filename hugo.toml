@@ -1,4 +1,151 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'Zxus'
+title = 'Zxus Blogs'
 theme = 'PaperMod'
+
+site = "public"
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+googleAnalytics = "" # Add your GA ID
+
+[minify]
+  disableXML = true
+  minifyOutput = true
+
+[params]
+  env = "production"
+  title = "Zxus Logs"
+  description = "Tech blog by Z-xus on C++, Linux, and programming — deep dives, practical tutorials, and insights for developers who want to master code and systems."
+  keywords = ["Blog", "Portfolio", "PaperMod", "Tech", "AI", "Development", "Programming"]
+  author = "Zxus"
+  images = ["logo.png"]
+  DateFormat = "January 2, 2006"
+  # defaultTheme = "dark"
+  disableThemeToggle = false
+
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  UseHugoToc = true
+  # disableSpecial1stPost = false
+  # disableScrollToTop = false
+  comments = true
+  hidemeta = false
+  hideSummary = false
+  showtoc = true
+  tocopen = false
+
+  [params.assets]
+    customCSS = ["css/custom.css"]
+    disableHLJS = true
+    disableFingerprinting = true
+    favicon = "favicon.ico"
+    favicon16x16 = "favicon-16x16.png"
+    favicon32x32 = "favicon-32x32.png"
+    apple_touch_icon = "apple-touch-icon.png"
+    safari_pinned_tab = "safari-pinned-tab.svg"
+
+  [params.label]
+    text = "Zxus"
+    icon = "🚀"
+    iconHeight = 35
+
+  [params.profileMode]
+    enabled = false
+
+  [params.homeInfoParams]
+    Title = "Zxus 🅱️Logs"
+    Content = """Deep dives into C++, Linux, and everything in between."""
+
+  [[params.socialIcons]]
+    name = "twitter"
+    url = "https://x.com/naufildotdev"
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/Z-xus"
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/naufil-asar/"
+
+  [params.analytics.google]
+    SiteVerificationTag = ""
+
+  [params.cover]
+    hidden = true
+    hiddenInList = true
+    hiddenInSingle = true
+
+  [params.editPost]
+    URL = "https://github.com/Z-xus/blogs/tree/main/content"
+    Text = "Suggest Changes"
+    appendFilePath = true
+
+  [params.fuseOpts]
+    isCaseSensitive = false
+    shouldSort = true
+    location = 0
+    distance = 200
+    threshold = 0.6
+    minMatchCharLength = 2
+    keys = ["title", "permalink", "summary", "content"]
+
+[[menu.main]]
+  identifier = "home"
+  name = "Home"
+  url = "/"
+  weight = 10
+
+[[menu.main]]
+  identifier = "articles"
+  name = "Articles"
+  url = "/posts/"
+  weight = 20
+
+[[menu.main]]
+  identifier = "categories"
+  name = "Categories"
+  url = "/categories/"
+  weight = 30
+
+[[menu.main]]
+  identifier = "tags"
+  name = "Tags"
+  url = "/tags/"
+  weight = 40
+
+# [[menu.main]]
+#   identifier = "archives"
+#   name = "Archives"
+#   url = "/archives/"
+#   weight = 50
+#
+[[menu.main]]
+  identifier = "search"
+  name = "Search"
+  url = "/search/"
+  weight = 60
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[markup.highlight]
+  noClasses = false
+  anchorLineNos = true
+  codeFences = true
+  guessSyntax = true
+  lineNos = true
+  style = "github-dark"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]

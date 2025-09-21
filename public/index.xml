@@ -1,35 +1,71 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Zxus</title>
+    <title>Zxus Blogs</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on Zxus</description>
-    <generator>Hugo -- 0.133.1</generator>
+    <description>Recent content on Zxus Blogs</description>
+    <image>
+      <title>Zxus Blogs</title>
+      <url>http://localhost:1313/logo.png</url>
+      <link>http://localhost:1313/logo.png</link>
+    </image>
+    <generator>Hugo -- 0.150.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 04 Nov 2024 17:32:51 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 21 Sep 2025 10:10:59 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Finance for Noobs</title>
+      <link>http://localhost:1313/posts/fin-for-noobs/</link>
+      <pubDate>Sun, 21 Sep 2025 10:10:59 +0530</pubDate>
+      <guid>http://localhost:1313/posts/fin-for-noobs/</guid>
+      <description>&lt;hr&gt;
+&lt;h1 id=&#34;finance-for-noobs&#34;&gt;Finance for noobs&lt;/h1&gt;
+&lt;p&gt;I come from tech background with zero knowledge of finance. This is me documenting my journey so that maybe if you want to learn about it, it is easier for you.&lt;/p&gt;
+&lt;h2 id=&#34;disclaimer&#34;&gt;Disclaimer&lt;/h2&gt;
+&lt;p&gt;This is relevant to India and sometimes US markets, the goal is to understand stuff.
+The content here is purely for educational purposes. This is not financial advice in any form.&lt;/p&gt;
+&lt;h2 id=&#34;mutual-funds&#34;&gt;Mutual Funds&lt;/h2&gt;
+&lt;p&gt;I growed up watching mutual funds advertisements many times, never really understood what they meant.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Huffman Coding</title>
       <link>http://localhost:1313/posts/huffman-coding/</link>
       <pubDate>Mon, 04 Nov 2024 17:32:51 +0530</pubDate>
       <guid>http://localhost:1313/posts/huffman-coding/</guid>
-      <description>Huffman Coding Huffman Coding is a popular algorithm used for data compression. It was developed by David A. Huffman in 1952 as part of his research on finding the most efficient binary code. Huffman Coding is widely used because of its simplicity and effectiveness in reducing data size without losing information.
-Table of Contents Introduction How Huffman Coding Works Example of Huffman Coding Decoding with Huffman Code Advantages of Huffman Coding Applications of Huffman Coding Limitations of Huffman Coding Introduction Huffman Coding is a lossless compression algorithm, meaning no data is lost during the compression process.</description>
+      <description>&lt;h1 id=&#34;huffman-coding&#34;&gt;Huffman Coding&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Huffman Coding&lt;/strong&gt; is a popular algorithm used for data compression. It was developed by &lt;strong&gt;David A. Huffman&lt;/strong&gt; in 1952 as part of his research on finding the most efficient binary code. Huffman Coding is widely used because of its simplicity and effectiveness in reducing data size without losing information.&lt;/p&gt;
+&lt;h2 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#introduction&#34;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#how-huffman-coding-works&#34;&gt;How Huffman Coding Works&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#example-of-huffman-coding&#34;&gt;Example of Huffman Coding&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#decoding-with-huffman-code&#34;&gt;Decoding with Huffman Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#advantages-of-huffman-coding&#34;&gt;Advantages of Huffman Coding&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#applications-of-huffman-coding&#34;&gt;Applications of Huffman Coding&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#limitations-of-huffman-coding&#34;&gt;Limitations of Huffman Coding&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Huffman Coding is a &lt;strong&gt;lossless compression algorithm&lt;/strong&gt;, meaning no data is lost during the compression process. The algorithm is based on the concept of variable-length encoding, where more frequent characters are assigned shorter codes, and less frequent characters receive longer codes. This way, Huffman Coding minimizes the total number of bits needed to represent a data set, leading to efficient compression.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Git Submodules</title>
       <link>http://localhost:1313/posts/git-submodules/</link>
       <pubDate>Sat, 31 Aug 2024 22:26:49 +0530</pubDate>
       <guid>http://localhost:1313/posts/git-submodules/</guid>
-      <description>Embracing Git Submodules: A Journey to a Seamless Dotfiles Setup I had been using stow since it was simple, but I was tired of making countless number of directories. I believed there had to be a better way. and oh boy, yadm it was. In my quest towards a perfect dotfiles setup in my Arch Linux and Neovim PDE (btw), Git submodules turned out to be hero I needed but not deserved.</description>
+      <description>&lt;hr&gt;
+&lt;h2 id=&#34;embracing-git-submodules-a-journey-to-a-seamless-dotfiles-setup&#34;&gt;Embracing Git Submodules: A Journey to a Seamless Dotfiles Setup&lt;/h2&gt;
+&lt;p&gt;I had been using stow since it was simple, but I was tired of making countless number of directories. I believed there had to be a better way. and oh boy, yadm it was.
+In my quest towards a perfect dotfiles setup in my Arch Linux and Neovim PDE (btw), Git submodules turned out to be hero I needed but not deserved. Here&amp;rsquo;s the anecdote to what happened:&lt;/p&gt;</description>
     </item>
     <item>
       <title>My First Post</title>
       <link>http://localhost:1313/posts/my-first-post/</link>
       <pubDate>Sat, 31 Aug 2024 19:30:47 +0530</pubDate>
       <guid>http://localhost:1313/posts/my-first-post/</guid>
-      <description>Introduction This is bold text, and this is emphasized text.
-Visit the Hugo website!</description>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;This is &lt;strong&gt;bold&lt;/strong&gt; text, and this is &lt;em&gt;emphasized&lt;/em&gt; text.&lt;/p&gt;
+&lt;p&gt;Visit the &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; website!&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
