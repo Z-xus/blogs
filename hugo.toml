@@ -10,7 +10,6 @@ buildDrafts = false
 buildFuture = false
 buildExpired = false
 
-googleAnalytics = "" # Add your GA ID
 
 [minify]
   disableXML = true
